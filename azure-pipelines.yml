@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-16.04'
   demands:
     - npm
-    
+
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
@@ -55,7 +55,7 @@ steps:
     zipAfterPublish: true
 
 - task: WhiteSource Bolt@19
-  displayName: 'Run WhiteSource Bolt'
+  displayName: 'Run WhiteSource Bolt konecne'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
