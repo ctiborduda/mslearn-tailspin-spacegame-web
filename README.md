@@ -1,3 +1,4 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cd-space-game1&metric=alert_status)](https://sonarcloud.io/dashboard?id=cd-space-game1)
 
 # Contributing
 
